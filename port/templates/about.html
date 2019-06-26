@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block content %}
+{{ block.super }}
+
+<div style="background-color:gray">
+
+<div class="container-fluid cont">
+
+    <img src="../static/images/pg.jpg" alt="Notebook">
+    
+    <center><div class="content">
+            <a href="{% url 'home' %}" style="position:relative; right:77%;top:-540px; font-size: 22px; color: white"><strong> Home</strong></a>
+
+      <h1 style="font-style:italic; position:relative;top:-20px; font-size: 40px"><u>About me</u></h1>
+      <p style="font-size:20px; ">  Hello there,<br>
+         I'm a Frontend Web Developer located in Nairobi,<br>
+           I use JAVASCRIPT, CSS, HTML and Python to make<br> awesome applications.
+           Passion is my drive, it's what makes me<br> empress change and see any 
+           challenge as an opportunity to learn.
+
+      </p>
+    </div></center>
+
+  </div>
+</div>
+    {% endblock %}

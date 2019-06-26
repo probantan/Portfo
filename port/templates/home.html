@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block content %}
+{{ block.super }}
+
+<div class="container-fluid" id="pro" >
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#about">About</a>
+          <a href="#projo">PROJECTS</a>
+          <a href="#skills">Technical Skills</a>
+        </div>
+      </div>
+      
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+              <center><h2 class="name">Protus Oduor</h2></center>
+              <center> <p class="title"> Frontend wep developer</p></center>
+
+        <div class="social-icons" style="position:absolute; top:93%; left: 42%;  transform:translate(-50% -50%); font-size:15px; color:white;  background-color:   ">
+            <!-- <a href="https://www.facebook.com/shopepoa/?modal=admin_todo_tour" target="_blank" class="fa fa-facebook"
+                style="margin:0px 10px;
+                width:40px; height:40px;
+                text-align:center;
+                color:#eee;
+                line-height:40px;
+                border-radius:50px;
+                background-color:#5252b8;
+            "></a> -->
+            <!-- <a href="https://twitter.com/" target="_blank" class="fa fa-twitter"
+                style="margin:0px 10px;
+                width:40px; height:40px;
+                color:#eee; text-align:center;
+                line-height:40px; border-radius:50px;
+                background-color:#00acee;"
+            ></a> -->
+            <!-- <a href="https://www.instagram.com/shopepoa/" target="_blank" class="fa fa-instagram "
+                style="margin:0px 10px; width:40px;
+                height:40px; color:#eee;
+                text-align:center; line-height:40px;
+                border-radius:50px;
+                background-color:#e4405f; -->
+              
+            </a>
+            <!-- <a href="https://www.linkedin.com/in/protus-bantan-a5752b102/" target="_blank" class="fa fa-linkedin" -->
+                <!-- style="margin:0px 10px;
+                    width:40px; height:40px;
+                    color:#eee; text-align:center;
+                    line-height:40px; border-radius:50px;
+                    background-color:#55acee; -->
+            </a>
+            
+    <div class=""  style=" top:200px; position: relative; left: -200px; height: 350px;">
+        <center><h1 id="about" style=" position:relative;top:-150px; font-size: 40px;color: #000; text-align: center;">ABOUT ME </h1>
+        <p style="font-size:25px;color:SlateGray;   text-align:center; position: relative;top: -150px;font-family: 'Josefin Sans', sans-serif;
+        "> 
+         I'm a Frontend Web Developer located in<br> Nairobi.
+           I use JAVASCRIPT, CSS, HTML and Python<br> to make awesome applications.
+           Passion is my drive, it's<br> what makes me empress change and see any <br>
+           challenge as an opportunity to learn.
+
+      </p></center>
+  </div>
+</div>  
+<p  id="projo"  style=" position:relative;top:127%; text-align:center; font-size:35px; font-style: oblique;" >PROJECTS</p>
+<div style="width:400px; height:250px;padding: 30px; position: relative; float: left; left: 160px; top: 130%">
+        <div class="hovereffect">
+           <a href="https://galla.herokuapp.com/" target="_blank">  <img style="width:400px; height:250px; " class="img-responsive" src="../static/images/per.jpg" alt=""></a>
+        </div>
+        <u><h2 >PERSONAL GALLARY</h2></u>
+        <p style="font-size:20px; ">Storing and managing my photos online.</p>
+    </div>
+
+    <div id="pr" style="width:400px; height:250px;padding: 30px; position: relative; float: left; left: 160px; top: 130%;">
+            <div class="hovereffect">
+               <a href="https://blog-p.herokuapp.com/home" target="_blank"> <img style="width:400px; height:250px; " class="img-responsive" src="../static/images/blog.jpg" alt=""></a>
+            </div>
+            <u><h2>Blog</h2></u>
+
+            <p style="font-size:20px; "> Write as well as read and comment on other people's article.</p>
+
+        </div>
+
+        <div style="width:400px; height:250px;padding: 30px; position: relative; float: left; left: 160px; top: 130%;">
+                <div class="hovereffect">
+                    <a href="https://probantan.github.io/quote/" target="_blank"><img style="width:400px; height:250px; "  class="img-responsive" src="../static/images/qq.jpg" alt=""></a>
+                            
+                        </div>
+                        <u><h2 >QUOTE-ROOM</h2></u>
+                        <p style="font-size:20px;"> Write your favourite quote and let other people rate it.
+                             </p>
+
+                </div>
+
+
+                
+
+</div>
+
+
+
+<div class="container-fluid">
+<section id = "languages"  style="position: relative;top:1400px; text-align: center; 
+  ">
+    <div class="content">
+
+   <u><h2 id="skills" style="text-align: center; color:white; font-size: 35px; font-weight: bold;" >Technical Skills</h2></u> 
+   <jumbotron>
+    <div class ="col-md-6" style="text-align: center;position: relative; left: 380px; font-size: 20px; padding-bottom: 50px;">
+            <h2 style="color:green"> <strong> HTML5 </strong></h2>
+            <P>This is a markup language and I'm well proficient working with it</P>
+            <h4 style="color:yellow"> <strong> CSS3 AND BOOTSTRAP4  </strong></h4>
+            <P>Have worked with these for styling my applications and making it as appealing as possible</P>
+
+            <h4 style="color:pink"> <strong> DJGO AND FLASK</strong></h4>
+            <P>These are python framesworks, workes with flask for small applications anf Django for large aplications</P>
+
+            <h4 style="color:yellowgreen"> <strong>  REACT AND ANGULAR </strong></h4>
+            <P>Javascript is a Frontend programming language.
+                Hace worked with the two major frameworks.
+            </P>
+
+        </div>
+
+        </jumbotron>
+    </wells>
+    </div>
+
+</section>
+
+<style>
+    .footer {
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color:black;
+       color: white;
+       text-align: center;
+    }
+    </style>
+    
+    
+    
+    <div class="footer">
+    <a style="width:40px; height: 40px; text-align: center; color :#eee;line-height: 40px;border-radius: 50px;background-color:#e4405f; "  href="https://www.instagram.com/shopepoa/" target="_blank" class="fa fa-instagram "></a>
+
+    <a style="width:40px; height: 40px; text-align: center; color :#eee;line-height: 40px;border-radius: 50px;background-color:#5252b8; " href="https://www.facebook.com/shopepoa/?modal=admin_todo_tour" target="_blank" class="fa fa-facebook"></a>
+        
+    <a style="width:40px; height: 40px; text-align: center; color :#eee;line-height: 40px;border-radius: 50px;background-color:#00acee;"target="_blank" class="fa fa-twitter"></a>
+    <a style="width:40px; height: 40px; text-align: center; color :#eee;line-height: 40px;border-radius: 50px;background-color:#55acee;"  href="https://www.linkedin.com/in/protus-bantan-a5752b102/" target="_blank" class="fa fa-linkedin"></a>
+
+
+      <small><p style="top:9px; position:relative;">Copyright (c) 2019 Protus, all rights reverved</p></small>
+    </div>
+    
+    
+    
+
+
+
+    {% endblock %}
